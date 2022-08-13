@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/preview_capture_button"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="PREVIEW CAPTURE"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/direct_capture_button"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="DIRECT CAPTURE"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="GALLERY"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
